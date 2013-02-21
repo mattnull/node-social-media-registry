@@ -1,9 +1,17 @@
+/*
+Endpoints
+	/accounts
+	/accounts/verify
+	/agencies
+	/services
+	/tags
+*/
 // http://www.usa.gov/About/developer-resources/social-media-registry.shtml
 var request = require('request');
 
 // Social Media Registry API
 var SMR = function(){
-	this.baseURI = '';
+	this.baseURI = 'http://registry.usa.gov/';
 };
 
 SMR.prototype.request = function(url, callback){
