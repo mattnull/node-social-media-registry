@@ -1,7 +1,5 @@
-SMR
-Node.js client library for the Federal Government Social Media Registry
+SMR 
 ==============================
-
-Node.js Library for the Federal Government Social Media Registry API
+Node.js client library for the Federal Government Social Media Registry
 <br/>
 *** Work in Progress
